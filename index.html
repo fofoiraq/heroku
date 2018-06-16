@@ -62,10 +62,10 @@
 
                 <div class="form-group">
                     <div class="mb-10">
-                        <a data-toggle="modal" data-target="#inPageModal" onclick="openSkinsList();" class="btn-primary btn btn-info" role="button" style="width: 100%;">Skins Gallery</a>
+                        <a data-toggle="modal" data-target="#inPageModal" onclick="openSkinsList();" class="btn-primary btn btn-info" role="button" style="width: 100%;">السكنات</a>
                     </div>
 
-                    <button type="button" id="play-btn" onclick="play(document.getElementById('nick').value); return false;" class="btn btn-play btn-primary btn-needs-server">Play</button>
+                    <button type="button" id="play-btn" onclick="play(document.getElementById('nick').value); return false;" class="btn btn-play btn-primary btn-needs-server">العب</button>
                     <button onclick="$('#settings, #instructions').toggle(); return false;" class="btn btn-info btn-settings" id="settings-btn"><i class="glyphicon glyphicon-cog"></i></button>
                     <br clear="both" />
                 </div>
@@ -78,19 +78,19 @@
                     </div>
                     <div style="margin: 6px;">
                         <label>
-                            <input type="checkbox" class="save" data-box-id="1" onchange="setSkins(!$(this).is(':checked'));"> No skins</label>
+                            <input type="checkbox" class="save" data-box-id="1" onchange="setSkins(!$(this).is(':checked'));"> اخفاء السكنات</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="2" onchange="setNames(!$(this).is(':checked'));"> No names</label>
+                            <input type="checkbox" class="save" data-box-id="2" onchange="setNames(!$(this).is(':checked'));"> اخفاء الأسماء</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="3" onchange="setDarkTheme($(this).is(':checked'));"> Dark theme</label>
+                            <input type="checkbox" class="save" data-box-id="3" onchange="setDarkTheme($(this).is(':checked'));"> الستايل الداكن</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="4" onchange="setColors($(this).is(':checked'));"> No colors</label>
+                            <input type="checkbox" class="save" data-box-id="4" onchange="setColors($(this).is(':checked'));"> بدون الوان</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="5" onchange="setShowMass($(this).is(':checked'));"> Show mass</label>
+                            <input type="checkbox" class="save" data-box-id="5" onchange="setShowMass($(this).is(':checked'));"> اظهار النقاط</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="7" onchange="setChatHide($(this).is(':checked'));"> Hide chat</label>
+                            <input type="checkbox" class="save" data-box-id="7" onchange="setChatHide($(this).is(':checked'));"> اخفاء الشات</label>
                         <label>
-                            <input type="checkbox" class="save" data-box-id="8" onchange="setMinimap($(this).is(':checked'));"> Hide minimap</label>
+                            <input type="checkbox" class="save" data-box-id="8" onchange="setMinimap($(this).is(':checked'));"> إخفاء الحد الأدنى</label>
                     </div>
                 </div>
             </form>
